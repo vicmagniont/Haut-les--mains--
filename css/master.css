@@ -1,0 +1,395 @@
+.gallery_scroller{
+  width: 100vw;
+}
+#p1{
+  width: 100px;
+  height: 100px
+}
+#p2{
+  width: 100px;
+  height: 100px
+}
+#p3{
+  width: 100px;
+  height: 100px
+}
+#p4{
+  width: 100px;
+  height: 100px
+}
+#p5{
+  width: 100px;
+  height: 100px
+}
+.colored_card{
+  margin: 0;
+  height: 100%
+}
+.gallery_scroller{
+  height: 100vh
+}
+#card1{
+  background-image: url(../images/c1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+a{
+  z-index: 99999
+}
+.card{
+  background: rgba(255, 99, 71, 0)
+}
+#card2{
+  background-color: #F9E26E;
+}
+#card3{
+  background-color: #97D2D4;
+}
+#card4{
+  background-color: #F8C6CF;
+}
+.card-img-top{
+  border-radius: 2000px;
+
+}
+.featherlight-content{
+  height: 90vh;
+  width: 90vw;
+  padding: 0
+}
+.featherlight-iner{
+  height: 100%;
+  width: 100%
+}
+.yoo{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.10), 0 3px 3px rgba(0,0,0,0.12);
+
+}
+.card{
+  border: 0px;
+
+}
+.card-text{
+  text-align: center;
+}
+.colored_card{
+  display: flex;
+align-items: flex-start;
+ justify-content: center;
+ align-content: flex-start;
+  flex-wrap: wrap;
+}
+.gallery_scroller div.colored_card #card1{
+  width: 98vw
+}
+h1{
+  width: 100%;
+  margin-top: 100px
+}
+.card-body{
+  padding: 0
+}
+.players{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 50px
+}
+header{
+  position: fixed;
+  top: 22px;
+  left: 30px;
+  z-index: 9000
+}
+footer{
+  position: fixed;
+  bottom: 70px;
+  z-index: 9000;
+  display: flex;
+justify-content: center; width: 100%
+}
+.btn{
+  margin-left:  20px;
+  margin-right: 20px;
+  border-radius: 1000px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  justify-content: center;
+}
+#button1::after{
+  content: "Règles";
+  color: black;
+  transform: translate(-32px, 45px) ;
+  position:absolute;
+  font-size: 0.8em
+}
+#button2::after{
+  content: "Qui gagne ?";
+  color: black;
+  transform: translate(-50px, 45px) ;
+  position:absolute;
+  font-size: 0.8em
+
+}
+#button3::after{
+  content: "Vidéo";
+  color: black;
+  transform: translate(-29px, 45px) ;
+  position:absolute;
+  font-size: 0.8em
+
+}
+#button4::after{
+  content: "Participer";
+  color: black;
+  transform: translate(-45px, 45px) ;
+  position:absolute;
+  font-size: 0.8em
+
+}
+
+.gallery .btn{
+  position: relative;
+}
+.five{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 100%
+}
+.containb1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px
+}
+.containb2{
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px
+}
+.containb3{
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+.image{
+  width: 200px;
+  height: 120px;
+  background-color: white;
+  margin: 20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+}
+h2{
+  width: 100%;
+  text-align: center;
+  font-size: 1.3em;
+  font-variant: small-caps;
+  margin-top: 20px
+}
+a{
+  color: white
+}
+.logo{
+  height: 80px
+}
+.btn-primary{
+  background-color: lightgrey;
+  border:0
+}
+.button1{width: 40px;
+height: 40px;
+background-color: white
+}
+#imagess{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#yolo{
+  width: 300px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    background-color: white;
+    color: black;
+    margin-top: 15px
+}
+.gallery_scroller div.colored_card #card1{
+  width: 100%
+}
+card1:display:none
+.aaaa{width:15vw;
+  height:100vh;
+background-color: pink}
+.bigbutton{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+}
+#p1 {
+  animation: wiggle 2s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s
+}
+#yolo {
+  animation: wiggle 2s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s
+}
+video{
+  width: 80%;
+  margin-top: 35px;
+}
+@keyframes wiggle {
+    0% { transform: rotate(0deg); }
+   80% { transform: rotate(0deg); }
+   85% { transform: rotate(10deg) translateX(-5px);; }
+   95% { transform: rotate(-15deg) translateX(5px); }
+  100% { transform: rotate(0deg); }
+}
+.fourrr{
+  width: 50vw;
+  height: 50vh;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: space-between;
+  font-size: 1.2em
+
+}
+.fourr{
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100vw
+}
+.za{
+  width: 50px;
+  height: 50px;
+  margin-left: 40vw;
+  justify-self: end;
+
+}
+.fourr1{
+  background-color: #F8C6CF
+}
+.fourr2{
+  background-color: #97D2D4
+}
+.fourr3{
+  background-color: #97D2D4
+}
+.fourr4{
+  background-color: #F8C6CF
+}
+
+#p1{
+  background-image: url(../images/pierrepapierciseaux/fondjaune/lezard.jpg);
+  background-size: cover;
+}
+#p2{
+  background-image: url(../images/pierrepapierciseaux/fondjaune/pierre.jpg);
+  background-size: cover;
+}
+#p3{
+  background-image: url(../images/pierrepapierciseaux/fondjaune/feuille.jpg);
+  background-size: cover;
+}
+#p4{
+  background-image: url(../images/pierrepapierciseaux/fondjaune/ciseaux.jpg);
+  background-size: cover;
+}
+#p5{
+  background-image: url(../images/pierrepapierciseaux/fondjaune/spoke.jpg);
+  background-size: cover;
+}
+.fourr1{
+  background-image: url(../images/pierrepapierciseaux/fondrose/lezardciseau3.jpg);
+  background-size: cover;
+}
+.fourr2{
+  background-image: url(../images/pierrepapierciseaux/fondbleu/lezardfeuille3.jpg);
+  background-size: cover;
+}
+.fourr4{
+  background-image: url(../images/pierrepapierciseaux/fondrose/lezardpierre3.jpg);
+  background-size: cover;
+}
+.fourr3{
+  background-image: url(../images/pierrepapierciseaux/fondbleu/lezardspoke3.jpg);
+  background-size: cover;
+}
+.fourr11{
+  background-image: url(../images/pierrepapierciseaux/fondrose/spokelezard3.jpg);
+  background-size: cover;
+}
+.fourr21{
+  background-image: url(../images/pierrepapierciseaux/fondbleu/spokepierre3.jpg);
+  background-size: cover;
+}
+.fourr41{
+  background-image: url(../images/pierrepapierciseaux/fondrose/spokefeuille3.jpg);
+  background-size: cover;
+}
+.fourr31{
+  background-image: url(../images/pierrepapierciseaux/fondbleu/spokeciseaux3.jpg);
+  background-size: cover;
+}
+.fourr12{
+  background-image: url(../images/pierrepapierciseaux/fondrose/pierrefeuille3.jpg);
+  background-size: cover;
+}
+.fourr22{
+  background-image: url(../images/pierrepapierciseaux/fondbleu/pierreciseaux3.jpg);
+  background-size: cover;
+}
+.fourr42{
+  background-image: url(../images/pierrepapierciseaux/fondrose/pierrespoke3.jpg);
+  background-size: cover;
+}
+.fourr32{
+  background-image: url(../images/pierrepapierciseaux/fondbleu/pierrelezard3.jpg);
+  background-size: cover;
+}
+.fourr13{
+  background-image: url(../images/pierrepapierciseaux/fondrose/ciseauxpierre3.jpg);
+  background-size: cover;
+}
+.fourr23{
+  background-image: url(../images/pierrepapierciseaux/fondbleu/ciseauxfeuille3.jpg);
+  background-size: cover;
+}
+.fourr43{
+  background-image: url(../images/pierrepapierciseaux/fondrose/ciseauxspoke3.jpg);
+  background-size: cover;
+}
+.fourr33{
+  background-image: url(../images/pierrepapierciseaux/fondbleu/ciseauxlezard3.jpg);
+  background-size: cover;
+}
+.fourr14{
+  background-image: url(../images/pierrepapierciseaux/fondrose/feuilleciseaux3.jpg);
+  background-size: cover;
+}
+.fourr24{
+  background-image: url(../images/pierrepapierciseaux/fondbleu/feuillepierre3.jpg);
+  background-size: cover;
+}
+.fourr44{
+  background-image: url(../images/pierrepapierciseaux/fondrose/feuillelezard3.jpg);
+  background-size: cover;
+}
+.fourr34{
+  background-image: url(../images/pierrepapierciseaux/fondbleu/feuillespoke3.jpg);
+  background-size: cover;
+}

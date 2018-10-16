@@ -1,0 +1,21 @@
+h1{
+  font-size: 2em;
+text-align: center;
+font-family: 'Fontdiner Swanky', cursive;
+
+}
+.normaltext{
+  max-width: 80%;
+  font-size: 0.8em;
+  margin: 0
+}
+p{
+  text-transform:  uppercase ;
+}
+div#txxt{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
